@@ -1,0 +1,15 @@
+{
+    "selected_model": "Logistic Regression - Interactions",
+    "threshold": 0.49499999999999994,
+    "accuracy": 0.7012987012987013,
+    "balanced_accuracy": 0.7005417522884363,
+    "precision": 0.5522388059701493,
+    "sensitivity": 0.6981132075471698,
+    "specificity": 0.7029702970297029,
+    "f1_score": 0.6166666666666667,
+    "roc_auc": 0.7610685596861574,
+    "TN": 71,
+    "FP": 30,
+    "FN": 16,
+    "TP": 37
+}

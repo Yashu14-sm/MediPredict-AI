@@ -1,0 +1,4 @@
+Model,CV ROC-AUC,Validation ROC-AUC,Best Parameters
+Logistic Regression,0.8318018104776579,0.8635185185185185,"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced'}"
+Random Forest,0.8346650295326142,0.835925925925926,"{'classifier__class_weight': 'balanced', 'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 200}"
+Gradient Boosting,0.8270102240626604,0.8398148148148148,"{'classifier__learning_rate': 0.03, 'classifier__max_depth': 2, 'classifier__min_samples_leaf': 3, 'classifier__n_estimators': 200}"

@@ -1,0 +1,17 @@
+{
+    "model": "Feature Engineered Logistic Regression",
+    "threshold": 0.385,
+    "validation_accuracy": 0.7922077922077922,
+    "validation_auc": 0.8605555555555555,
+    "test_accuracy": 0.6753246753246753,
+    "test_balanced_accuracy": 0.7121240425929385,
+    "test_precision": 0.5176470588235295,
+    "test_sensitivity": 0.8301886792452831,
+    "test_specificity": 0.594059405940594,
+    "test_f1": 0.6376811594202898,
+    "test_roc_auc": 0.7973099196712125,
+    "TN": 60,
+    "FP": 41,
+    "FN": 9,
+    "TP": 44
+}

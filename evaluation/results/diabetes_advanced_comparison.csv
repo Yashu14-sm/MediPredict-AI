@@ -1,0 +1,6 @@
+Model,CV Accuracy,Validation Accuracy at 0.5,Validation ROC-AUC,Parameters
+Logistic Regression - Median,0.7760869565217392,0.7532467532467533,0.8627777777777778,"{'classifier__C': 0.1, 'classifier__class_weight': None}"
+Logistic Regression - KNN,0.7739130434782608,0.7597402597402597,0.8655555555555556,"{'classifier__C': 1, 'classifier__class_weight': None, 'imputer__n_neighbors': 3}"
+Logistic Regression - Interactions,0.7434782608695653,0.7727272727272727,0.85,"{'classifier__C': 0.01, 'classifier__class_weight': 'balanced'}"
+Random Forest,0.7760869565217391,0.7402597402597403,0.8290740740740741,"{'classifier__class_weight': None, 'classifier__max_depth': 5, 'classifier__min_samples_leaf': 6, 'classifier__n_estimators': 400}"
+Gradient Boosting,0.7913043478260869,0.7272727272727273,0.8308333333333333,"{'classifier__learning_rate': 0.02, 'classifier__max_depth': 2, 'classifier__min_samples_leaf': 5, 'classifier__n_estimators': 200}"

@@ -1,0 +1,59 @@
+{
+    "Heart Disease": {
+        "selected_model": "Random Forest",
+        "validation_roc_auc": 0.9491341991341992,
+        "selected_threshold": 0.48,
+        "test_metrics": {
+            "threshold": 0.48,
+            "accuracy": 0.8032786885245902,
+            "balanced_accuracy": 0.8046536796536796,
+            "precision": 0.7666666666666667,
+            "sensitivity_recall": 0.8214285714285714,
+            "specificity": 0.7878787878787878,
+            "f1_score": 0.7931034482758621,
+            "roc_auc": 0.9258658008658008,
+            "TN": 26,
+            "FP": 7,
+            "FN": 5,
+            "TP": 23
+        }
+    },
+    "Diabetes": {
+        "selected_model": "Logistic Regression",
+        "validation_roc_auc": 0.8605555555555555,
+        "selected_threshold": 0.25881542183054257,
+        "test_metrics": {
+            "threshold": 0.25881542183054257,
+            "accuracy": 0.6493506493506493,
+            "balanced_accuracy": 0.6788716607509808,
+            "precision": 0.4939759036144578,
+            "sensitivity_recall": 0.7735849056603774,
+            "specificity": 0.5841584158415841,
+            "f1_score": 0.6029411764705882,
+            "roc_auc": 0.7881561741079769,
+            "TN": 59,
+            "FP": 42,
+            "FN": 12,
+            "TP": 41
+        }
+    },
+    "Breast Cancer": {
+        "selected_model": "Logistic Regression",
+        "validation_roc_auc": 1.0,
+        "selected_threshold": 0.7086045560054357,
+        "test_metrics": {
+            "threshold": 0.7086045560054357,
+            "accuracy": 0.956140350877193,
+            "balanced_accuracy": 0.9404761904761905,
+            "precision": 1.0,
+            "sensitivity_recall": 0.8809523809523809,
+            "specificity": 1.0,
+            "f1_score": 0.9367088607594937,
+            "roc_auc": 0.9940476190476191,
+            "TN": 72,
+            "FP": 0,
+            "FN": 5,
+            "TP": 37
+        }
+    }
+}
